@@ -150,5 +150,5 @@ function love.draw(  )
 	love.graphics.rectangle("fill", player2.x, player2.y, 20, 80)
 	love.graphics.print("Player 2:" .. tostring(Player2Score), 600, 10)
 
-	love.graphics.print(startingAngle)
+	-- love.graphics.print(startingAngle)
 end
